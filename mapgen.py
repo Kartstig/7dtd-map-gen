@@ -2,7 +2,7 @@ import os
 import re
 import Image
 
-dir = os.getcwd()
+map_folder = '/home/sdtd/instances/dogfort/Random\ Gen/Donkeyteeth/map/'
 map_output = '/var/www/sdtd/map.png'
 
 x_pixel_scale = 256
@@ -12,7 +12,7 @@ zoom = 1
 
 scope = re.compile("^.*map\/[{}]\/(-?[\d])".format(zoom))
 
-root_dirs = [(root, files) for root, dirs, files in os.walk(dir)]
+root_dirs = [(root, files) for root, dirs, files in os.walk(map_folder)]
 
 scoped_dirs = []
 for d, f in root_dirs:
