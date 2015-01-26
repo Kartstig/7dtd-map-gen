@@ -2,7 +2,7 @@ import os
 import re
 from PIL import Image
 
-map_folder = '/home/sdtd/instances/dogfort/Random\ Gen/Donkeyteeth/map/'
+map_folder = r'/home/sdtd/instances/dogfort/Random Gen/Donkeyteeth/map/'
 map_output = '/var/www/sdtd/map.png'
 
 x_pixel_scale = 256
