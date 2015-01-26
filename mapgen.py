@@ -1,6 +1,6 @@
 import os
 import re
-import Image
+from PIL import Image
 
 map_folder = '/home/sdtd/instances/dogfort/Random\ Gen/Donkeyteeth/map/'
 map_output = '/var/www/sdtd/map.png'
